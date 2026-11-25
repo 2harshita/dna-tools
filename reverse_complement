@@ -1,0 +1,9 @@
+seq = "GATTACA"
+complement = {"A": "T", "T": "A", "G": "C", "C": "G"}
+
+comp = ""
+for base in seq:
+    comp += complement[base]
+
+reverse_comp = comp[::-1]
+print(reverse_comp)
